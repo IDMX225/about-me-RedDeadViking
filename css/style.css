@@ -6,7 +6,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Black Ops One";
-    font-size: 30pt;
+    text-align: center;
+}
+
+h1{
+    font-size:40pt;
 }
 
 header {
@@ -26,4 +30,14 @@ header {
 
 #bio {
     text-align: center;
+}
+
+#hobbies ul li:nth-child(odd){
+    list-style-type:decimal-leading-zero;
+}
+
+#hobbies ul li:nth-child(even){
+    text-align: right;
+    list-style-position: inside;
+    list-style-type: decimal-leading-zero;
 }
