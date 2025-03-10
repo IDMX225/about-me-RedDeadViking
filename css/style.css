@@ -46,7 +46,6 @@ header {
 #gallery{
     border: 5px solid #5E5A4C;
     margin-bottom: 10px;
-    
 }
 
 #gallery img{
@@ -83,4 +82,18 @@ header {
     margin-right:.25em;
     font-family: "Black Ops One";
     background-image: radial-gradient(#FFF,#9E9375)
+}
+
+@media screen and (min-width: 60em) {
+    #gallery figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #gallery figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
 }
