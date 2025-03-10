@@ -1,7 +1,7 @@
 body {
     font-family: "Kantumruy pro";
-    background-color: #DEC16D;
-    color: #4464E0;
+    background-color: #F4E5C6;
+    color: #1A237E;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
     font-size:40pt;
+}
+
+h2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 header {
@@ -32,19 +37,16 @@ header {
     text-align: center;
 }
 
-#hobbies ul li:nth-child(odd){
-    list-style-type:decimal-leading-zero;
-}
-
-#hobbies ul li:nth-child(even){
-    text-align: right;
-    list-style-position: inside;
-    list-style-type: decimal-leading-zero;
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #gallery{
     border: 5px solid #5E5A4C;
     margin-bottom: 10px;
+    
 }
 
 #gallery img{
