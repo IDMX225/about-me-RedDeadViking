@@ -72,7 +72,7 @@ header {
     margin: 0 auto;
 }
 
-#lit div p:first-letter{
+#lit div p:first-child:first-letter{
     color:green;
     float:left;
     font-size: 3rem;
@@ -85,15 +85,44 @@ header {
 }
 
 @media screen and (min-width: 60em) {
-    #gallery figure {
+    figure {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
 
-    #gallery figcaption {
+    figcaption {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
+        padding: 2rem;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
+    }
+}
+
+@media screen and (min-wdth: 100em) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
     }
 }
