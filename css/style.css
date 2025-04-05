@@ -113,6 +113,78 @@ header {
     background-image: radial-gradient(#FFF,#9E9375)
 }
 
+/* CONTACT SECTION */
+#contact {
+    padding: 2rem;
+    background-color: #9E9375;
+    color: #1A237E;
+    border: 2px solid #5E5A4C;
+    margin-top: 2rem;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #FAF3E0;
+  }
+  
+  form fieldset {
+    border: 2px solid #5E5A4C;
+    padding: 2rem;
+    background-color: #FFF9EC;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form label,
+  form input,
+  form textarea,
+  form select {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  
+  form input,
+  form textarea,
+  form select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #999;
+  }
+  
+  form ul.follow-up {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  form ul.follow-up li {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  
+  form button {
+    background-color: #4464E0;
+    color: white;
+    font-weight: bold;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  form button:hover {
+    background-color: #2f4ad0;
+  }
+
 @media screen and (min-width: 60em) {
     figure {
         display: grid;
