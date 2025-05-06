@@ -1,182 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="icon" type="image/png" sizes="96x96" href="img/logo.svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/nav.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="96x96" href="img/logo.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet">
 </head>
+
 <body>
-    
-    <header>
-        
-        <nav class="navbar">
-            <div class="logo">
-                <img src="img/logo.svg" alt="My initials as a logo">
-                <h1>Web Page Dev I - Online</h1>
+
+  <!--  HEADER & NAVIGATION  -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/logo.svg" alt="My initials as a logo">
+        <h1>Web Page Dev I - Online</h1>
+      </div>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#lit">Blog</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!--  HERO SECTION  -->
+    <section id="hero">
+      <img src="img/avataaars.png" alt="My Avatar">
+      <div>
+        <p>Nicholas Niva</p>
+        <p>Ringoes, NJ</p>
+      </div>
+    </section>
+
+    <!--  BIO SECTION  -->
+    <section id="bio">
+      <h2>Biography:</h2>
+      <div>
+        <p></p>
+        <p>I want to be...</p>
+        <p>Better at web page development</p>
+        <p>My Favorite way to work is...</p>
+        <p>In my room listening to chill music with no pressure</p>
+        <p>In My free time, I like to...</p>
+        <p>Workout at the gym or go on a run, play chess, read a good book or play some videogames</p>
+      </div>
+    </section>
+
+    <!--  HOBBIES SECTION  -->
+    <section id="hobbies">
+      <h2>Hobbies:</h2>
+      <ul>
+        <li>Traveling</li>
+        <li>Biking</li>
+        <li>Nature</li>
+        <li>Snowboarding</li>
+        <li>Computers</li>
+        <li>Building or Fixing things</li>
+        <li>Working out</li>
+        <li>Reading all kinds of literature</li>
+        <li>Photography</li>
+        <li>Philosophy</li>
+      </ul>
+    </section>
+
+    <!--  IMAGE GALLERY  -->
+    <section id="gallery">
+      <h2>Gallery:</h2>
+      <hr>
+      <figure>
+        <img src="img/venice-640w.jpg" alt="A Canal in Venice">
+        <figcaption>A cool picture I took of a canal when I was traveling in Venice, Italy.</figcaption>
+      </figure>
+      <hr>
+      <figure>
+        <img src="img/bike-path-640w.jpg" alt="Bike next to bike path and shed">
+        <figcaption>A cool picture I took while I was biking down the Deleware river bike path.</figcaption>
+      </figure>
+      <hr>
+      <figure>
+        <img src="img/snowboarding-640w.jpg" alt="A person sitting in the snow with a snowboard at the distance">
+        <figcaption>A picture I took of my brother looking out over the view while we took a break from snowboarding down the mountain.</figcaption>
+      </figure>
+    </section>
+
+    <!--  EMBEDDED VIDEO  -->
+    <section id="video">
+      <h2>A Short Video:</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lLWluwTCKmA?si=rLxoL4qd_TzNhsar" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!--  BLOG SECTION  -->
+    <article id="lit">
+      <h2>Excerpt From Lorem Ipsem:</h2>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <p>Cras tincidunt risus odio, ut interdum enim tempus sed...</p>
+        <p>Sed lectus arcu, sollicitudin ac diam in, pretium tempor nunc...</p>
+        <p>Duis imperdiet luctus bibendum. Aenean hendrerit felis ut lectus...</p>
+        <p>Aenean pellentesque orci quis dolor pretium varius...</p>
+      </div>
+    </article>
+
+    <!--  CONTACT FORM  -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form name="contact" method="POST" data-netlify="true">
+
+        <!-- Contact Form Fields -->
+        <fieldset>
+          <legend>Contact Form</legend>
+          <div id="form-elements">
+            <label for="name">Name (required):</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email (required):</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone (optional):</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="phone-type">Phone Type (optional):</label>
+            <select id="phone-type" name="phone-type">
+              <option value="mobile" selected>Mobile</option>
+              <option value="work">Work</option>
+              <option value="home">Home</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="8"></textarea>
+
+            <button type="submit">Send</button>
+          </div>
+        </fieldset>
+
+        <!-- Reply Preferences -->
+        <fieldset class="reply-choice">
+            <legend>Would you like a reply?</legend>
+          
+            <div class="radio-option">
+              <input type="radio" id="reply-yes" name="reply" value="yes">
+              <label for="reply-yes">Yes, reply would be nice</label>
             </div>
-            <div class="navbar-links">
-            <ul>
-                <li><a href="#bio">Bio</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#lit">Blog</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
+          
+            <div class="radio-option">
+              <input type="radio" id="reply-no" name="reply" value="no" checked>
+              <label for="reply-no">No, thanks</label>
             </div>
-        </nav>
+          </fieldset>
+      </form>
+    </section>
 
-    </header>
+  </main>
 
-    <main>
+  <!--  FOOTER  -->
+  <footer>
+    ©2025 Nicholas Niva  
+    <a href="https://github.com/IDMX225/about-me-RedDeadViking.git" target="_blank">View on GitHub</a>
+  </footer>
 
-        <section id="hero">
-            <img src="img/avataaars.png" alt="My Avatar">
-            <div>
-                <P>Nicholas Niva</P>
-                <p>Ringoes, NJ</p>
-            </div>
-        </section>
-
-        <section id="bio">
-
-            <h2>Biography:</h2>
-
-            <div>
-                <p>I want to be...</p>
-                <p>Better at web page development</p>
-                <p>My Favorite way to work is...</p>
-                <p>In my room listening to chill music with no pressure</p>
-                <p>In My free time, I like to...</p>
-                <p>Workout at the gym or go on a run, play chess, read a good book or play some videogames</p>
-            </div>
-
-        </section>
-
-        <section id="hobbies">
-            
-            <h2>Hobbies:</h2>
-
-            <ul>
-                <li>Traveling</li>
-                <li>Biking</li>
-                <li>Nature</li>
-                <li>Snowboarding</li>
-                <li>Computers</li>
-                <li>Building or Fixing things</li>
-                <li>Working out</li>
-                <li>Reading all kinds of literature</li>
-                <li>Photography</li>
-                <li>Philosophy</li>
-            </ul>
-
-        </section>
-
-        <section id="gallery">
-
-            <h2>Gallery:</h2>
-
-            <hr>
-
-            <figure>
-                <img src="img/venice-640w.jpg" alt="A Canal in Venice">
-                <figcaption>A cool picture I took of a canal when I was traveling in Venice, Italy.</figcaption>
-            </figure>
-
-            <hr>
-
-            <figure>
-                <img src="img/bike-path-640w.jpg" alt="Bike next to bike path and shed">
-                <figcaption>A cool picture I took while I was biking down the Deleware river bike path.</figcaption>
-            </figure>
-
-            <hr>
-
-            <figure>
-                <img src="img/snowboarding-640w.jpg" alt="A person sitting in the snow with a snowboard at the distance">
-                <figcaption>A picture I took of my brother looking out over the view while we took a break from snowboarding down the mountain.</figcaption>
-            </figure>
-
-        </section>
-
-        <section id="video">
-
-            <h2>A Short Video:</h2>
-
-            <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/lLWluwTCKmA?si=rLxoL4qd_TzNhsar" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-
-        </section>
-
-        <article id="lit">
-
-            <h2>Excerpt From Lorem Ipsem:</h2>
-
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non vestibulum erat, sed dictum justo. Nunc facilisis vel elit in interdum. Vestibulum in ipsum est. Nullam elit lectus, elementum sed imperdiet at, luctus a ligula. Curabitur at felis varius, vehicula turpis et, imperdiet eros. Maecenas molestie, elit ut sodales lobortis, quam ante molestie augue, eget tincidunt elit odio ac elit. Fusce pretium laoreet nibh, in sollicitudin nibh consequat ac. Pellentesque mattis magna vitae magna consectetur, sed molestie mi malesuada. Aliquam erat volutpat. Morbi in aliquam dolor, nec ullamcorper erat. Fusce elementum eros rutrum nisi faucibus, sit amet pretium velit pulvinar. Etiam eu urna efficitur, feugiat sapien vel, fermentum lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ac metus faucibus, rutrum diam a, maximus enim. Duis ut justo eleifend, fringilla turpis ac, efficitur dui.</p>
-                <p>Cras tincidunt risus odio, ut interdum enim tempus sed. Suspendisse sed lorem non orci accumsan rutrum. Sed malesuada dolor in pretium interdum. Nam in auctor metus, non egestas ex. Praesent a rutrum massa. Aenean non pellentesque elit. Morbi iaculis eleifend dictum. Cras dictum placerat mi, sed vestibulum mi eleifend eu. Phasellus vitae rhoncus libero. Pellentesque rutrum viverra tortor, in bibendum odio viverra ut. Praesent venenatis dapibus est sit amet auctor. Praesent vehicula massa id turpis blandit efficitur. Aenean elit libero, ultricies pharetra hendrerit sed, pretium tempus erat. Nulla porta tortor at nisi mattis, ut luctus ex fermentum.</p>
-                <p>Sed lectus arcu, sollicitudin ac diam in, pretium tempor nunc. Nulla velit lacus, tempor in risus quis, fermentum semper est. Cras viverra ante nec nibh pretium commodo. Phasellus eu ex et velit vestibulum convallis. Nullam non arcu tristique, rhoncus felis in, congue elit. In suscipit diam eget ante faucibus, eu aliquam ex condimentum. Quisque sed dolor risus. Nunc vulputate ut libero et accumsan. Morbi dui sem, sagittis nec ante id, tincidunt ultrices nisi. Sed vestibulum lacus sapien, vel vulputate sem ultricies in. In ullamcorper in velit id tincidunt. Mauris id sapien erat. Phasellus quis mi efficitur, lobortis ligula eget, cursus nibh. Sed eu pretium eros.</p>
-                <p>Duis imperdiet luctus bibendum. Aenean hendrerit felis ut lectus congue malesuada. Donec tristique, mi vitae maximus ultrices, tellus lacus mattis metus, eu placerat massa velit ut risus. Pellentesque at scelerisque velit. Fusce quis imperdiet elit, et rutrum orci. Aenean tristique purus augue, sed consectetur erat varius sit amet. Proin posuere a ante eu feugiat. Nam a velit augue. Duis nulla neque, accumsan in ligula id, tincidunt porta augue. Phasellus rutrum ultricies eros, ac convallis tortor.</p>
-                <p>Aenean pellentesque orci quis dolor pretium varius. Nulla convallis mi id mauris volutpat, et pellentesque lorem vestibulum. Donec pulvinar risus et turpis commodo bibendum. Fusce dictum, purus sed laoreet congue, libero elit malesuada dolor, id volutpat sem elit sed tellus. Donec vehicula odio neque, non elementum nunc laoreet sit amet. Nullam quis metus bibendum, interdum velit non, pharetra purus. Suspendisse finibus iaculis ex, non aliquam tellus efficitur quis.</p>
-            </div>
-        </article>
-
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form name="contact" method="POST" data-netlify="true">
-              <fieldset>
-                <legend>Contact Form</legend>
-          
-                <div id="form-elements">
-                  <label for="name">Name (required):</label>
-                  <input type="text" id="name" name="name" required>
-          
-                  <label for="email">Email (required):</label>
-                  <input type="email" id="email" name="email" required>
-          
-                  <label for="phone">Phone (optional):</label>
-                  <input type="tel" id="phone" name="phone">
-          
-                  <label for="phone-type">Phone Type (optional):</label>
-                  <select id="phone-type" name="phone-type">
-                    <option value="mobile" selected>Mobile</option>
-                    <option value="work">Work</option>
-                    <option value="home">Home</option>
-                  </select>
-          
-                  <label for="message">Message:</label>
-                  <textarea id="message" name="message" rows="8"></textarea>
-          
-                  <button type="submit">Send</button>
-                </div>
-              </fieldset>
-              <fieldset>
-                <legend>Would you like a reply?</legend>
-                <ul>
-                  <li>
-                    <input type="radio" id="reply-yes" name="reply" value="yes">
-                    <label for="reply-yes">Yes, reply would be nice</label>
-                  </li>
-                  <li>
-                    <input type="radio" id="reply-no" name="reply" value="no" checked>
-                    <label for="reply-no">No, thanks</label>
-                  </li>
-                </ul>
-              </fieldset>
-            </form>
-          </section>
-          
-
-    </main>
-
-    <footer>
-
-        ©2025 Nicholas Niva
-
-    </footer>
 </body>
 </html>

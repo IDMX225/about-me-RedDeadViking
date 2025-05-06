@@ -12,8 +12,9 @@ This **"About Me"** website is the final project for my Web Page Development & D
 - Custom form design and validation  
 - Google Fonts and a custom color palette  
 - Organized folder structure and external stylesheets  
+- Custom Designed and implemented a favicon and hero image
 
-The website includes sections like a biography, gallery, blog article, and contact form.
+The website includes sections like a biography, gallery, blog article, and contact form
 
 ## 🎨 Color Scheme
 
@@ -34,7 +35,8 @@ The website includes sections like a biography, gallery, blog article, and conta
   - [Kantumruy Pro](https://fonts.google.com/specimen/Kantumruy+Pro)
   - [Lobster](https://fonts.google.com/specimen/Lobster)
 - All gallery images were taken by me  
-- My own video I embedded from YouTube: [How to Be More Disciplined](https://www.youtube.com/watch?v=lLWluwTCKmA)
+- My own video I embedded from YouTube: [Some Drifting Action at Oldbridge Township Raceway](https://www.youtube.com/watch?v=lLWluwTCKmA)
+- Created an avatar using a 3rd party website: [avataaars generator](https://getavataaars.com/)
 
 ## 🛠️ License
 
