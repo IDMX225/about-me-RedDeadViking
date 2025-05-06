@@ -32,6 +32,7 @@ The website includes sections like a biography, gallery, blog article, and conta
 - Fonts from [Google Fonts](https://fonts.google.com):  
   - [Black Ops One](https://fonts.google.com/specimen/Black+Ops+One)  
   - [Kantumruy Pro](https://fonts.google.com/specimen/Kantumruy+Pro)
+  - [Lobster](https://fonts.google.com/specimen/Lobster)
 - All gallery images were taken by me  
 - My own video I embedded from YouTube: [How to Be More Disciplined](https://www.youtube.com/watch?v=lLWluwTCKmA)
 

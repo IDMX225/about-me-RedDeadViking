@@ -22,6 +22,10 @@ header {
     text-align: center;
 }
 
+header h1 {
+    padding-left: 1rem;
+}
+
 #hero, footer {
     text-align: center;
     background-color: #9E9375;
@@ -31,10 +35,6 @@ header {
 
 #hero img {
     width: 300px;
-}
-
-#bio {
-    text-align: center;
 }
 
 #hobbies{
