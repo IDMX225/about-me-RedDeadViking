@@ -42,15 +42,26 @@ footer {
 }
 
 /*  BIO  */
-#bio p {
+#bio {
+    margin-top: 10px;
+    border: 5px solid #5E5A4C;
+    margin-bottom: 10px;
+    padding: 1rem;
+    background-color: #F4E5C6;
     text-align: center;
 }
+
 
 /*  HOBBIES  */
 #hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
+    border: 5px solid #5E5A4C;
+    margin-bottom: 10px;
+    padding: 1rem;
+    background-color: #F4E5C6;
 }
 
 /*  GALLERY  */
@@ -105,7 +116,7 @@ footer {
     border: none;
 }
 
-/*  BLOG / LITERATURE  */
+/*  BLOG  */
 #lit {
     border: 5px solid #5E5A4C;
     margin-bottom: 10px;
@@ -128,6 +139,30 @@ footer {
     margin-right: .25em;
     font-family: "Black Ops One";
     background-image: radial-gradient(#FFF, #9E9375);
+}
+
+.hover-demo {
+    margin: 2rem auto;
+    max-width: 40rem;
+    text-align: center;
+}
+  
+.hover-demo img {
+    max-width: 100%;
+    border: 5px solid #5E5A4C;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+  
+.hover-demo img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+  
+.hover-demo figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-size: 1rem;
+    color: #333;
 }
 
 /*  CONTACT SECTION  */
@@ -249,6 +284,14 @@ form button:hover {
     }
 
     #video {
-        /* Empty rule, can be filled later */
+        
     }
 }
+
+@media screen and (max-width: 30em) {
+    .reply-choice .radio-option {
+      display: flex;
+      margin-bottom: 0.5rem;
+      margin-right: 0;
+    }
+  }

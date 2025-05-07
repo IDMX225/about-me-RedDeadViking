@@ -6,12 +6,12 @@
 
 This **"About Me"** website is the final project for my Web Page Development & Design class. It shows everything I have learned throught this class including:
 
-- Semantic HTML5 layout  
-- Responsive CSS using Flexbox and Grid  
-- Embedded multimedia (images, YouTube video)  
-- Custom form design and validation  
-- Google Fonts and a custom color palette  
-- Organized folder structure and external stylesheets  
+- HTML5 layouts
+- Responsive CSS using Flexbox and Grid
+- Embedded multimedia (images, YouTube video)
+- Custom form design and validation
+- Google Fonts and a custom color palette
+- Organized folder structure and external stylesheets
 - Custom Designed and implemented a favicon and hero image
 
 The website includes sections like a biography, gallery, blog article, and contact form
@@ -30,13 +30,18 @@ The website includes sections like a biography, gallery, blog article, and conta
 
 ## 📸 Citations
 
-- Fonts from [Google Fonts](https://fonts.google.com):  
-  - [Black Ops One](https://fonts.google.com/specimen/Black+Ops+One)  
+- Fonts from [Google Fonts](https://fonts.google.com):
+  - [Black Ops One](https://fonts.google.com/specimen/Black+Ops+One)
   - [Kantumruy Pro](https://fonts.google.com/specimen/Kantumruy+Pro)
   - [Lobster](https://fonts.google.com/specimen/Lobster)
-- All gallery images were taken by me  
+- All gallery images were taken by me
 - My own video I embedded from YouTube: [Some Drifting Action at Oldbridge Township Raceway](https://www.youtube.com/watch?v=lLWluwTCKmA)
 - Created an avatar using a 3rd party website: [avataaars generator](https://getavataaars.com/)
+- Sources used for Hover Blog Post:
+  - [CSS Tricks: :hover](https://css-tricks.com/almanac/selectors/h/hover/)
+  - [MDN Web Docs: :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)
+  - [W3Schools: CSS Image Effects](https://www.w3schools.com/css/css_image_transparency.asp)
+
 
 ## 🛠️ License
 

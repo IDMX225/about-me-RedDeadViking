@@ -53,13 +53,10 @@
     <section id="bio">
       <h2>Biography:</h2>
       <div>
-        <p></p>
-        <p>I want to be...</p>
-        <p>Better at web page development</p>
-        <p>My Favorite way to work is...</p>
-        <p>In my room listening to chill music with no pressure</p>
-        <p>In My free time, I like to...</p>
-        <p>Workout at the gym or go on a run, play chess, read a good book or play some videogames</p>
+        <p>Welcome to my website! My name is Nicholas Niva and I am currently a student at Raritan Valley Community College where I am just finishing up my last semester getting my associate's degree in information systems and technology. The purpose of this website is an About Me webpage to showcase everything I have done and learned in my Web Page Development & Design Class up to the end of the year. I am happy to say I have learned a lot in this class and am proud of the finished product.</p>
+        <p>I am one of nine kids with 5 sisters and 3 younger brothers. I have two pet dogs named Vendela and Sage and two pet cats named Pocono and Pippin. I have lived all over the country in 7 different states. Among which I was born in Minnesota and spent the most time in California and of course New Jersey. I plan to continue my education after finishing here at RVCC at Ohio University where I will get my bachelor's degree in information technology.</p>
+        <p>I have enjoyed my time at RVCC and most especially taking this class as it never seemed like a chore or homework when I had an assignment from Web Page Dev & Design. This class was always something I looked forward to and found enjoyment in learning about HTML, CSS and everything else we explored.</p>
+        <p>Below, in the Hobbies Section I have listed some hobbies of mine and below that in the Gallery Section, I have a few pictures I have taken that showcase some cool things I have done in the recent past. Feel free to take a look.</p>
       </div>
     </section>
 
@@ -67,16 +64,16 @@
     <section id="hobbies">
       <h2>Hobbies:</h2>
       <ul>
-        <li>Traveling</li>
-        <li>Biking</li>
-        <li>Nature</li>
-        <li>Snowboarding</li>
-        <li>Computers</li>
-        <li>Building or Fixing things</li>
-        <li>Working out</li>
-        <li>Reading all kinds of literature</li>
-        <li>Photography</li>
-        <li>Philosophy</li>
+        <li>Traveling around the world or roadtripping in the US</li>
+        <li>Biking with friends specifically along the Deleware Canal as of late</li>
+        <li>Enjoying nature with friends and family whether it be hiking or just going to a park</li>
+        <li>Snowboarding with my brothers or anyone who wants to go</li>
+        <li>Computers and technology have always been something I have found fascinating</li>
+        <li>Building or Fixing things as I grew up with a handy dad who taught me a lot</li>
+        <li>Working out at the gym or going on runs to stay active and healthy</li>
+        <li>Reading all kinds of literature especially philosophy and historical fiction</li>
+        <li>I am always keeping an eye out for a cool view or place where I can do some photography</li>
+        <li>Philosophy has been something I have been trying to get into and understand better as of late</li>
       </ul>
     </section>
 
@@ -110,14 +107,35 @@
 
     <!--  BLOG SECTION  -->
     <article id="lit">
-      <h2>Excerpt From Lorem Ipsem:</h2>
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-        <p>Cras tincidunt risus odio, ut interdum enim tempus sed...</p>
-        <p>Sed lectus arcu, sollicitudin ac diam in, pretium tempor nunc...</p>
-        <p>Duis imperdiet luctus bibendum. Aenean hendrerit felis ut lectus...</p>
-        <p>Aenean pellentesque orci quis dolor pretium varius...</p>
-      </div>
+        <h2>Image Hover Effects and Web Design</h2>
+        <div>
+            <p>Image hover effects are a very simple yet very powerful technique in CSS that can make a website far more interactive for users. These effects go into effect when a user moves their mouse or "hovers" over an image, which causes it to change in some way. Usually these changes are subtle, but these little changes tend to add a layer of polish to modern websites that makes them seem far more professional.</p>
+            <p>Some common hover effects include zooming in a bit, changing the brightness or contrast of an image, making an image black and white, rotating, or even animated effects over the images. These effects don't need any coding languages outside of what we already use all the time in this class. They can be created with just CSS using the built in hover functionality.</p>
+            <p>From a user interface perspective, hover effects can help direct the attention of users. They can tell you if an image or anything else with the hover effect is clickable or highlight important content. For example, many video websites like youtube, will often start playing a bit of the video you are hovering over before you click on it. E-commerce websites like amazon will often use the hover element to show details about a product or to show more pictures of that item.</p>
+            <p>To use a basic hover effect, you just need to make a style change to an element for when it is hovered. Here is an example:</p>
+            <pre><code>
+        img {
+            transition: transform 0.3s ease;
+        }
+      
+        img:hover {
+            transform: scale(1.05);
+        }
+            </code></pre>
+            <p>To the right I made a demo using one of my own photos. When you hover over the image, it zooms in and brightens a bit. This effect draws attention to the picture without being too overwhelming.</p>
+            <p>Some more advanced effects might combine filter, transform, opacity, and some CSS animations to make some pretty cool website visuals. Some website developers will chain some hover effects with transitions for smooth and professional looking interactions.</p>
+            <p>In short, image hover effects are a must-have in any modern web design toolkit. They're easy to implement, improve visual feedback, and elevate the overall user experience without heavy code.</p>
+            <figure class="hover-demo">
+                <img src="img/bike-path-640w.jpg" alt="Demo of hover effect on my bike path image">
+                <figcaption>Hover over this image to see the effect.</figcaption>
+            </figure>
+            <p>Websites I used in writing this article:</p>
+            <ul>
+                <li><a href="https://css-tricks.com/almanac/selectors/h/hover/" target="_blank">CSS Tricks: :hover</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:hover" target="_blank">MDN Web Docs: :hover</a></li>
+                <li><a href="https://www.w3schools.com/css/css_image_transparency.asp" target="_blank">W3Schools: CSS Image Effects</a></li>
+            </ul>
+        </div>
     </article>
 
     <!--  CONTACT FORM  -->
