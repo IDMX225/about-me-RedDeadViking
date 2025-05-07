@@ -38,8 +38,8 @@ The website includes sections like a biography, gallery, blog article, and conta
 - My own video I embedded from YouTube: [Some Drifting Action at Oldbridge Township Raceway](https://www.youtube.com/watch?v=lLWluwTCKmA)
 - Created an avatar using a 3rd party website: [avataaars generator](https://getavataaars.com/)
 - Sources used for Hover Blog Post:
-  - [CSS Tricks: :hover](https://css-tricks.com/almanac/selectors/h/hover/)
-  - [MDN Web Docs: :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)
+  - [CodePen: CSS Image Hover Effects](https://codepen.io/nxworld/pen/ZYNOBZ)
+  - [The Brandsmen: Simple CSS Hover Effects](https://thebrandsmen.com/css-image-hover-effects/)
   - [W3Schools: CSS Image Effects](https://www.w3schools.com/css/css_image_transparency.asp)
 
 
