@@ -228,15 +228,15 @@ form button:hover {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-  }
+}
   
-  .reply-choice .radio-option {
+.reply-choice .radio-option {
     margin-bottom: 0;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     margin-right: 1.5rem;
-  }
+}
   
   
 
@@ -290,8 +290,8 @@ form button:hover {
 
 @media screen and (max-width: 30em) {
     .reply-choice .radio-option {
-      display: flex;
-      margin-bottom: 0.5rem;
-      margin-right: 0;
+        display: flex;
+        margin-bottom: 0.5rem;
+        margin-right: 0;
     }
-  }
+}

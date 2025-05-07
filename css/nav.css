@@ -33,20 +33,40 @@ main {
     padding: 1rem;
 }
 
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
 /* logo */
 
 .logo {
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 
 .logo img {
-    height: 6vw;
-    width: 6vw;
+    width: 50px;
+    height: auto;
 }
 
 .logo h1 {
-    font-size: 1.2em;
+    font-size: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
 }
 
 /* navigation list */
@@ -94,5 +114,37 @@ such that no text wraps
     .navbar ul {
         display: flex;
         justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hamburger {
+        display: block;
+    }
+  
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        width: 100%;
+        padding: 1rem;
+    }
+  
+    .navbar-links.active {
+        display: flex;
+    }
+  
+    .navbar-links ul {
+        padding-left: 0;
+        margin: 0;
+    }
+  
+    .navbar-links li {
+        text-align: center;
+        padding: 0.5rem 0;
+    }
+
+    .logo h1 {
+        font-size: 0.9rem;
     }
 }

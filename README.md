@@ -13,6 +13,7 @@ This **"About Me"** website is the final project for my Web Page Development & D
 - Google Fonts and a custom color palette
 - Organized folder structure and external stylesheets
 - Custom Designed and implemented a favicon and hero image
+- Added a Functional Navbar with hamburger menu view when in mobile
 
 The website includes sections like a biography, gallery, blog article, and contact form
 
@@ -41,6 +42,7 @@ The website includes sections like a biography, gallery, blog article, and conta
   - [CodePen: CSS Image Hover Effects](https://codepen.io/nxworld/pen/ZYNOBZ)
   - [The Brandsmen: Simple CSS Hover Effects](https://thebrandsmen.com/css-image-hover-effects/)
   - [W3Schools: CSS Image Effects](https://www.w3schools.com/css/css_image_transparency.asp)
+- [W3Schools: Mobile Navigation Bar](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
 
 
 ## 🛠️ License
